@@ -1,0 +1,1150 @@
+2018/10/20 14:53:46 [emerg] 4102#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:53:46 [emerg] 4102#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:53:46 [emerg] 4102#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:53:46 [emerg] 4102#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:53:46 [emerg] 4102#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:53:46 [emerg] 4102#0: still could not bind()
+2018/10/20 14:56:38 [emerg] 4197#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:56:38 [emerg] 4197#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:56:38 [emerg] 4197#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:56:38 [emerg] 4197#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:56:38 [emerg] 4197#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2018/10/20 14:56:38 [emerg] 4197#0: still could not bind()
+[ N 2018-10-20 14:58:51.8983 2053/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 14:58:51.9403 2056/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 14:58:51.9406 2056/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 14:58:51.9558 2056/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 2056
+App 2091 output: Traceback (most recent call last):
+App 2091 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 2091 output:     app_module = load_app()
+App 2091 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 2091 output:     return imp.load_source('passenger_wsgi', startup_file)
+App 2091 output:   File "/var/www/html/pong/passenger_wsgi.py", line 2, in <module>
+App 2091 output:     from main import PongApp as application
+App 2091 output:   File "/var/www/html/pong/main.py", line 2, in <module>
+App 2091 output:     from kivy.app import App
+App 2091 output: ImportError: No module named kivy.app
+[ E 2018-10-20 14:58:54.4462 2056/Te age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /var/www/html/pong: The application process exited prematurely.
+  Error ID: f9d95b26
+  Error details saved to: /tmp/passenger-error-ajhhhw.html
+
+[ E 2018-10-20 14:58:54.4597 2056/T7 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is f9d95b26. Please see earlier logs for details about the error.
+[ N 2018-10-20 14:58:54.5774 2056/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-10-20 15:16:26.4892 2056/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 15:16:26.4893 2056/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 15:16:26.4894 2056/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 15:16:26.4894 2056/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 15:16:26.4895 2056/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 15:16:26.4895 2056/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 15:16:26.4896 2056/Tb Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 15:16:26.4896 2056/Tb Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 15:16:26.5351 2056/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:26:06.5054 5337/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:26:06.5474 5340/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:26:06.5478 5340/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:26:06.5633 5340/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 5340
+App 5374 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_5.txt
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,028 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_5.txt
+App 5374 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,007 ]: [Kivy        ] v1.10.1
+App 5374 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5374 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,029 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5374 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5374 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,105 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 18:26:09.2912 5340/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 5374 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,428 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 5374 output:  Traceback (most recent call last):
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,609 ]: stderr: Traceback (most recent call last):
+App 5374 output:    File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,609 ]: stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 5374 output:      app_module = load_app()
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,610 ]: stderr:     app_module = load_app()
+App 5374 output:    File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,610 ]: stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 5374 output:      return imp.load_source('passenger_wsgi', startup_file)
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,611 ]: stderr:     return imp.load_source('passenger_wsgi', startup_file)
+App 5374 output:    File "/usr/lib/python3.6/imp.py", line 172, in load_source
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,611 ]: stderr:   File "/usr/lib/python3.6/imp.py", line 172, in load_source
+App 5374 output:      module = _load(spec)
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,637 ]: stderr:     module = _load(spec)
+App 5374 output:    File "<frozen importlib._bootstrap>", line 684, in _load
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,637 ]: stderr:   File "<frozen importlib._bootstrap>", line 684, in _load
+App 5374 output:    File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,638 ]: stderr:   File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+App 5374 output:    File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,639 ]: stderr:   File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+App 5374 output:    File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,639 ]: stderr:   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+App 5374 output:    File "/var/www/html/pong/passenger_wsgi.py", line 7, in <module>
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,640 ]: stderr:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in <module>
+App 5374 output:      os.excl(INTERP, INTERP, *sys.argv)
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,641 ]: stderr:     os.excl(INTERP, INTERP, *sys.argv)
+App 5374 output:  AttributeError: module 'os' has no attribute 'excl'
+App 5374 output: [ pid=5374, time=2018-10-20 18:26:09,641 ]: stderr: AttributeError: module 'os' has no attribute 'excl'
+[ E 2018-10-20 18:26:09.7862 5340/Te age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /var/www/html/pong: The application process exited prematurely.
+  Error ID: c35e74f2
+  Error details saved to: /tmp/passenger-error-n0xvsr.html
+
+[ E 2018-10-20 18:26:09.8004 5340/T7 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is c35e74f2. Please see earlier logs for details about the error.
+
+[ N 2018-10-20 18:30:39.1811 5340/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:30:39.1812 5340/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:30:39.1813 5340/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:30:39.1814 5340/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:30:39.1815 5340/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:30:39.1815 5340/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:30:39.1816 5340/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:30:39.1817 5340/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:30:39.2252 5340/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:30:41.5937 5522/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:30:41.6357 5525/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:30:41.6360 5525/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:30:41.6514 5525/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 5525
+App 5559 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_6.txt
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,047 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_6.txt
+App 5559 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,047 ]: [Kivy        ] v1.10.1
+App 5559 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5559 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,048 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5559 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5559 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,088 ]: [Factory     ] 194 symbols loaded
+App 5559 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,317 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-20 18:30:44.3210 5525/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 5559 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 5559 output: Traceback (most recent call last):
+App 5559 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 5559 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 5559 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 5559 output:     result = self.app(env, start_response)
+[ W 2018-10-20 18:30:44.3577 5525/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 5559 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 5559 output:     return application()
+App 5559 output: TypeError: application() missing 2 required positional arguments: 'environ' and 'start_response'
+App 5559 output: [ pid=5559, time=2018-10-20 18:30:44,355 ]: WSGI application raised an exception!
+App 5559 output: Traceback (most recent call last):
+App 5559 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 5559 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 5559 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 5559 output:     result = self.app(env, start_response)
+App 5559 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 5559 output:     return application()
+App 5559 output: TypeError: application() missing 2 required positional arguments: 'environ' and 'start_response'
+
+[ N 2018-10-20 18:31:31.6490 5525/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:31:31.6490 5525/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:31:31.6491 5525/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 5559, application /var/www/html/pong (development)
+[ N 2018-10-20 18:31:31.6492 5525/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:31:31.6493 5525/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:31:31.6494 5525/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:31:31.6494 5525/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:31:31.6495 5525/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:31:31.6495 5525/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:31:31.6497 5525/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 5559, application /var/www/html/pong (development)
+[ N 2018-10-20 18:31:31.7928 5525/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:32:32.1142 5679/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:32:32.1571 5682/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:32:32.1574 5682/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:32:32.1730 5682/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 5682
+App 5716 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_7.txt
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,567 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_7.txt
+App 5716 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,567 ]: [Kivy        ] v1.10.1
+App 5716 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5716 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,568 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 5716 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 5716 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,609 ]: [Factory     ] 194 symbols loaded
+App 5716 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,839 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-20 18:32:34.8425 5682/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 5716 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-20 18:32:34.8793 5682/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 5716 output: Traceback (most recent call last):
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 5716 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 5716 output:     result = self.app(env, start_response)
+App 5716 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 5716 output:     return application(environ, start_response)
+App 5716 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 5716 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 5716 output:     raise AssertionError("Headers already set!")
+App 5716 output: AssertionError: Headers already set!
+App 5716 output: [ pid=5716, time=2018-10-20 18:32:34,877 ]: WSGI application raised an exception!
+App 5716 output: Traceback (most recent call last):
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 5716 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 5716 output:     result = self.app(env, start_response)
+App 5716 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 5716 output:     return application(environ, start_response)
+App 5716 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 5716 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 5716 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 5716 output:     raise AssertionError("Headers already set!")
+App 5716 output: AssertionError: Headers already set!
+
+[ N 2018-10-20 18:39:48.0908 5682/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:39:48.0909 5682/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:39:48.0910 5682/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 5716, application /var/www/html/pong (development)
+[ N 2018-10-20 18:39:48.0912 5682/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:39:48.0912 5682/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:39:48.0915 5682/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:39:48.0915 5682/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:39:48.0917 5682/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:39:48.0917 5682/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:39:48.0919 5682/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 5716, application /var/www/html/pong (development)
+[ N 2018-10-20 18:39:48.2452 5682/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:40:16.8321 6122/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:40:16.8747 6125/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:40:16.8751 6125/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:40:16.8905 6125/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 6125
+App 6159 output: Purge log fired. Analysing...
+App 6159 output: Purge finished!
+App 6159 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_8.txt
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,280 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_8.txt
+App 6159 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,279 ]: [Kivy        ] v1.10.1
+App 6159 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6159 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,281 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6159 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6159 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,321 ]: [Factory     ] 194 symbols loaded
+App 6159 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,549 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-20 18:40:19.5756 6125/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 6159 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-20 18:40:19.5895 6125/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 6159 output: Traceback (most recent call last):
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6159 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6159 output:     result = self.app(env, start_response)
+App 6159 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 6159 output:     return application(environ, start_response)
+App 6159 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 6159 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 6159 output:     raise AssertionError("Headers already set!")
+App 6159 output: AssertionError: Headers already set!
+App 6159 output: [ pid=6159, time=2018-10-20 18:40:19,587 ]: WSGI application raised an exception!
+App 6159 output: Traceback (most recent call last):
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6159 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6159 output:     result = self.app(env, start_response)
+App 6159 output:   File "/var/www/html/pong/passenger_wsgi.py", line 7, in application
+App 6159 output:     return application(environ, start_response)
+App 6159 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 6159 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 6159 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 6159 output:     raise AssertionError("Headers already set!")
+App 6159 output: AssertionError: Headers already set!
+
+[ N 2018-10-20 18:43:54.9399 6125/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:43:54.9400 6125/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:43:54.9400 6125/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6159, application /var/www/html/pong (development)
+[ N 2018-10-20 18:43:54.9403 6125/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:43:54.9403 6125/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:43:54.9406 6125/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:43:54.9406 6125/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:43:54.9408 6125/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:43:54.9408 6125/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:43:54.9410 6125/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6159, application /var/www/html/pong (development)
+[ N 2018-10-20 18:43:55.0843 6125/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:44:29.2117 6322/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:44:29.2543 6325/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:44:29.2546 6325/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:44:29.2708 6325/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 6325
+App 6359 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_9.txt
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,670 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_9.txt
+App 6359 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,669 ]: [Kivy        ] v1.10.1
+App 6359 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6359 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,670 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6359 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6359 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,711 ]: [Factory     ] 194 symbols loaded
+App 6359 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,939 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-20 18:44:31.9419 6325/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 6359 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 6359 output: Traceback (most recent call last):
+App 6359 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6359 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6359 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6359 output:     result = self.app(env, start_response)
+[ W 2018-10-20 18:44:31.9797 6325/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 6359 output: TypeError: __init__() takes 1 positional argument but 3 were given
+App 6359 output: [ pid=6359, time=2018-10-20 18:44:31,978 ]: WSGI application raised an exception!
+App 6359 output: Traceback (most recent call last):
+App 6359 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6359 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6359 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6359 output:     result = self.app(env, start_response)
+App 6359 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-20 18:45:23.0617 6325/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:45:23.0618 6325/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:45:23.0619 6325/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6359, application /var/www/html/pong (development)
+[ N 2018-10-20 18:45:23.0620 6325/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:45:23.0621 6325/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:45:23.0622 6325/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:45:23.0622 6325/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:45:23.0623 6325/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:45:23.0623 6325/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:45:23.0625 6325/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6359, application /var/www/html/pong (development)
+[ N 2018-10-20 18:45:23.2147 6325/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:46:29.5311 6501/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:46:29.5736 6504/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:46:29.5739 6504/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:46:29.5895 6504/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 6504
+App 6538 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_10.txt
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:31,989 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_10.txt
+App 6538 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:31,989 ]: [Kivy        ] v1.10.1
+App 6538 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6538 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:31,990 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6538 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6538 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:32,030 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 18:46:32.2454 6504/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 6538 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:32,266 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6538 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 6538 output: Traceback (most recent call last):
+App 6538 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6538 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6538 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6538 output:     result = self.app(env, start_response)
+App 6538 output: TypeError: __init__() takes 1 positional argument but 3 were given
+App 6538 output: [ pid=6538, time=2018-10-20 18:46:32,303 ]: WSGI application raised an exception!
+App 6538 output: Traceback (most recent call last):
+App 6538 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6538 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6538 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6538 output:     result = self.app(env, start_response)
+App 6538 output: TypeError: __init__() takes 1 positional argument but 3 were given
+[ W 2018-10-20 18:46:32.3059 6504/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+
+[ N 2018-10-20 18:47:17.6007 6504/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:47:17.6008 6504/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:47:17.6009 6504/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6538, application /var/www/html/pong (development)
+[ N 2018-10-20 18:47:17.6010 6504/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:47:17.6011 6504/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:47:17.6012 6504/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:47:17.6012 6504/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:47:17.6013 6504/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:47:17.6013 6504/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:47:17.6014 6504/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6538, application /var/www/html/pong (development)
+[ N 2018-10-20 18:47:17.7446 6504/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 18:47:58.0871 6612/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 18:47:58.1298 6615/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 18:47:58.1302 6615/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 18:47:58.1491 6615/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 6615
+App 6651 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_11.txt
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,542 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_11.txt
+App 6651 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,542 ]: [Kivy        ] v1.10.1
+App 6651 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6651 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,543 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 6651 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 6651 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,584 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 18:48:00.8104 6615/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 6651 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,813 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 6651 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 6651 output: Traceback (most recent call last):
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6651 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6651 output:     result = self.app(env, start_response)
+App 6651 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 6651 output:     return application(environ, start_response)
+App 6651 output:   File "/var/www/html/pong/passenger_wsgi.py", line 5, in application
+App 6651 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 6651 output:     raise AssertionError("Headers already set!")
+App 6651 output: AssertionError: Headers already set!
+[ W 2018-10-20 18:48:00.8521 6615/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 6651 output: [ pid=6651, time=2018-10-20 18:48:00,850 ]: WSGI application raised an exception!
+App 6651 output: Traceback (most recent call last):
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 6651 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 6651 output:     result = self.app(env, start_response)
+App 6651 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 6651 output:     return application(environ, start_response)
+App 6651 output:   File "/var/www/html/pong/passenger_wsgi.py", line 5, in application
+App 6651 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 6651 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 6651 output:     raise AssertionError("Headers already set!")
+App 6651 output: AssertionError: Headers already set!
+
+[ N 2018-10-20 18:48:43.0027 6615/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 18:48:43.0028 6615/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 18:48:43.0028 6615/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6651, application /var/www/html/pong (development)
+[ N 2018-10-20 18:48:43.0030 6615/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 18:48:43.0030 6615/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 18:48:43.0031 6615/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 18:48:43.0031 6615/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 18:48:43.0032 6615/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 18:48:43.0032 6615/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 18:48:43.0034 6615/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 6651, application /var/www/html/pong (development)
+[ N 2018-10-20 18:48:43.1466 6615/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:16:24.1930 7056/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:16:24.2353 7059/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:16:24.2356 7059/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:16:24.2512 7059/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7059
+App 7093 output: Purge log fired. Analysing...
+App 7093 output: Purge finished!
+App 7093 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_14.txt
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,644 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_14.txt
+App 7093 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,643 ]: [Kivy        ] v1.10.1
+App 7093 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7093 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,645 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7093 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7093 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,685 ]: [Factory     ] 194 symbols loaded
+App 7093 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,912 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7093 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 7093 output: Traceback (most recent call last):
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7093 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7093 output:     result = self.app(env, start_response)
+App 7093 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7093 output:     return application(environ, start_response)
+App 7093 output:   File "/var/www/html/pong/passenger_wsgi.py", line 5, in application
+App 7093 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 7093 output:     raise AssertionError("Headers already set!")
+App 7093 output: AssertionError: Headers already set!
+App 7093 output: [ pid=7093, time=2018-10-20 19:16:26,949 ]: WSGI application raised an exception!
+App 7093 output: Traceback (most recent call last):
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7093 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7093 output:     result = self.app(env, start_response)
+App 7093 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7093 output:     return application(environ, start_response)
+App 7093 output:   File "/var/www/html/pong/passenger_wsgi.py", line 5, in application
+App 7093 output:     start_response('200 OK', [('Content-type', 'text/plain')])
+App 7093 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 318, in start_response
+App 7093 output:     raise AssertionError("Headers already set!")
+App 7093 output: AssertionError: Headers already set!
+[ W 2018-10-20 19:16:26.9511 7059/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+[ N 2018-10-20 19:16:26.9519 7059/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-10-20 19:16:58.4635 7059/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:16:58.4636 7059/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:16:58.4637 7059/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7093, application /var/www/html/pong (development)
+[ N 2018-10-20 19:16:58.4638 7059/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:16:58.4639 7059/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:16:58.4640 7059/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:16:58.4640 7059/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:16:58.4640 7059/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:16:58.4640 7059/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:16:58.4642 7059/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7093, application /var/www/html/pong (development)
+[ N 2018-10-20 19:16:58.6154 7059/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:17:41.4450 7164/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:17:41.4873 7167/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:17:41.4876 7167/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:17:41.5031 7167/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7167
+App 7203 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_15.txt
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:43,903 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_15.txt
+App 7203 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:43,903 ]: [Kivy        ] v1.10.1
+App 7203 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7203 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:43,904 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7203 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7203 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:43,944 ]: [Factory     ] 194 symbols loaded
+App 7203 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:44,175 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7203 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 7203 output: Traceback (most recent call last):
+App 7203 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7203 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7203 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7203 output:     result = self.app(env, start_response)
+App 7203 output: TypeError: __init__() takes 1 positional argument but 3 were given
+[ W 2018-10-20 19:17:44.2146 7167/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 7203 output: [ pid=7203, time=2018-10-20 19:17:44,213 ]: WSGI application raised an exception!
+App 7203 output: Traceback (most recent call last):
+App 7203 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7203 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7203 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7203 output:     result = self.app(env, start_response)
+App 7203 output: TypeError: __init__() takes 1 positional argument but 3 were given
+[ N 2018-10-20 19:17:44.2770 7167/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-10-20 19:24:00.1936 7167/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:24:00.1937 7167/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:24:00.1938 7167/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7203, application /var/www/html/pong (development)
+[ N 2018-10-20 19:24:00.1939 7167/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:24:00.1940 7167/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:24:00.1940 7167/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:24:00.1940 7167/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:24:00.1943 7167/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:24:00.1943 7167/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:24:00.1945 7167/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7203, application /var/www/html/pong (development)
+[ N 2018-10-20 19:24:00.3421 7167/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:25:51.8610 7437/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:25:51.9032 7440/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:25:51.9036 7440/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:25:51.9191 7440/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7440
+App 7474 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_16.txt
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,310 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_16.txt
+App 7474 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,309 ]: [Kivy        ] v1.10.1
+App 7474 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7474 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,311 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7474 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7474 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,351 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:25:54.5805 7440/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7474 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,580 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7474 output:  Traceback (most recent call last):
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,718 ]: stderr: Traceback (most recent call last):
+App 7474 output:    File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,718 ]: stderr:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 381, in <module>
+App 7474 output:      handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,719 ]: stderr:     handler = RequestHandler(server_socket, sys.stdin, app_module.application)
+App 7474 output:  AttributeError: module 'passenger_wsgi' has no attribute 'application'
+App 7474 output: [ pid=7474, time=2018-10-20 19:25:54,719 ]: stderr: AttributeError: module 'passenger_wsgi' has no attribute 'application'
+[ E 2018-10-20 19:25:54.8145 7440/Te age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /var/www/html/pong: The application process exited prematurely.
+  Error ID: 834723a5
+  Error details saved to: /tmp/passenger-error-WpbdNZ.html
+
+[ E 2018-10-20 19:25:54.8281 7440/T7 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 834723a5. Please see earlier logs for details about the error.
+
+[ N 2018-10-20 19:26:12.8302 7440/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:26:12.8303 7440/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:26:12.8304 7440/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:26:12.8304 7440/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:26:12.8305 7440/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:26:12.8306 7440/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:26:12.8306 7440/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:26:12.8306 7440/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:26:12.8739 7440/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:26:57.0311 7531/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:26:57.0736 7534/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:26:57.0739 7534/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:26:57.0894 7534/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7534
+App 7568 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_17.txt
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,481 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_17.txt
+App 7568 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,480 ]: [Kivy        ] v1.10.1
+App 7568 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7568 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,482 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7568 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7568 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,522 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:26:59.7288 7534/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7568 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,750 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7568 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 7568 output: Traceback (most recent call last):
+App 7568 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7568 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7568 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7568 output:     result = self.app(env, start_response)
+App 7568 output: TypeError: __init__() takes 1 positional argument but 3 were given
+App 7568 output: [ pid=7568, time=2018-10-20 19:26:59,787 ]: WSGI application raised an exception!
+App 7568 output: Traceback (most recent call last):
+App 7568 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7568 output:     socket_hijacked = self.process_request(env, input_stream, client)
+[ W 2018-10-20 19:26:59.7896 7534/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 7568 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7568 output:     result = self.app(env, start_response)
+App 7568 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-20 19:27:23.6064 7534/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:27:23.6064 7534/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:27:23.6065 7534/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7568, application /var/www/html/pong (development)
+[ N 2018-10-20 19:27:23.6066 7534/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:27:23.6067 7534/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:27:23.6067 7534/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:27:23.6067 7534/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:27:23.6070 7534/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:27:23.6071 7534/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:27:23.6072 7534/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7568, application /var/www/html/pong (development)
+[ N 2018-10-20 19:27:23.7545 7534/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:28:21.1035 7636/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:28:21.1458 7639/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:28:21.1461 7639/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:28:21.1617 7639/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7639
+App 7673 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_18.txt
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,557 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_18.txt
+App 7673 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,556 ]: [Kivy        ] v1.10.1
+App 7673 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7673 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,557 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7673 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7673 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,598 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:28:23.7922 7639/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7673 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,826 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7673 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 7673 output: Traceback (most recent call last):
+App 7673 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7673 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7673 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7673 output:     result = self.app(env, start_response)
+App 7673 output: TypeError: __init__() takes 1 positional argument but 3 were given
+[ W 2018-10-20 19:28:23.8650 7639/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 7673 output: [ pid=7673, time=2018-10-20 19:28:23,863 ]: WSGI application raised an exception!
+App 7673 output: Traceback (most recent call last):
+App 7673 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7673 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7673 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7673 output:     result = self.app(env, start_response)
+App 7673 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-20 19:28:27.8451 7639/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:28:27.8452 7639/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:28:27.8453 7639/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7673, application /var/www/html/pong (development)
+[ N 2018-10-20 19:28:27.8454 7639/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:28:27.8454 7639/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:28:27.8455 7639/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:28:27.8455 7639/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:28:27.8457 7639/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:28:27.8458 7639/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:28:27.8459 7639/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7673, application /var/www/html/pong (development)
+[ N 2018-10-20 19:28:27.9954 7639/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:29:14.0356 7733/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:29:14.0779 7736/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:29:14.0782 7736/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:29:14.0937 7736/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7736
+App 7770 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_19.txt
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,488 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_19.txt
+App 7770 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,487 ]: [Kivy        ] v1.10.1
+App 7770 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7770 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,489 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7770 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7770 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,529 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:29:16.7291 7736/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7770 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,762 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7770 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-20 19:29:16.8382 7736/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 7770 output: Traceback (most recent call last):
+App 7770 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7770 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7770 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7770 output:     result = self.app(env, start_response)
+App 7770 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7770 output:     return application(PongApp())
+App 7770 output: NameError: name 'PongApp' is not defined
+App 7770 output: [ pid=7770, time=2018-10-20 19:29:16,836 ]: WSGI application raised an exception!
+App 7770 output: Traceback (most recent call last):
+App 7770 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7770 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7770 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7770 output:     result = self.app(env, start_response)
+App 7770 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7770 output:     return application(PongApp())
+App 7770 output: NameError: name 'PongApp' is not defined
+
+[ N 2018-10-20 19:29:23.8688 7736/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:29:23.8689 7736/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:29:23.8690 7736/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7770, application /var/www/html/pong (development)
+[ N 2018-10-20 19:29:23.8692 7736/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:29:23.8693 7736/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:29:23.8695 7736/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:29:23.8696 7736/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:29:23.8697 7736/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:29:23.8698 7736/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:29:23.8699 7736/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7770, application /var/www/html/pong (development)
+[ N 2018-10-20 19:29:24.0195 7736/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:30:05.9998 7829/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:30:06.0427 7832/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:30:06.0430 7832/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:30:06.0586 7832/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7832
+App 7866 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_20.txt
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,451 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_20.txt
+App 7866 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,450 ]: [Kivy        ] v1.10.1
+App 7866 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7866 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,452 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7866 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7866 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,493 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:30:08.6829 7832/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7866 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,722 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7866 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-20 19:30:08.7605 7832/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 7866 output: Traceback (most recent call last):
+App 7866 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7866 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7866 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7866 output:     result = self.app(env, start_response)
+App 7866 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7866 output:     return application(application())
+App 7866 output: TypeError: application() missing 2 required positional arguments: 'environ' and 'start_response'
+App 7866 output: [ pid=7866, time=2018-10-20 19:30:08,759 ]: WSGI application raised an exception!
+App 7866 output: Traceback (most recent call last):
+App 7866 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7866 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7866 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7866 output:     result = self.app(env, start_response)
+App 7866 output:   File "/var/www/html/pong/passenger_wsgi.py", line 6, in application
+App 7866 output:     return application(application())
+App 7866 output: TypeError: application() missing 2 required positional arguments: 'environ' and 'start_response'
+
+[ N 2018-10-20 19:30:23.9630 7832/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:30:23.9631 7832/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:30:23.9632 7832/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7866, application /var/www/html/pong (development)
+[ N 2018-10-20 19:30:23.9634 7832/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:30:23.9634 7832/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:30:23.9637 7832/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:30:23.9637 7832/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:30:23.9639 7832/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:30:23.9639 7832/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:30:23.9641 7832/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7866, application /var/www/html/pong (development)
+[ N 2018-10-20 19:30:24.1075 7832/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:31:44.5205 7930/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:31:44.5632 7933/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:31:44.5635 7933/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:31:44.5789 7933/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 7933
+App 7967 output: Purge log fired. Analysing...
+App 7967 output: Purge finished!
+App 7967 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_21.txt
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:46,972 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_21.txt
+App 7967 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:46,970 ]: [Kivy        ] v1.10.1
+App 7967 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7967 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:46,973 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 7967 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 7967 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:47,013 ]: [Factory     ] 194 symbols loaded
+App 7967 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:47,241 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-20 19:31:47.2475 7933/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 7967 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 7967 output: Traceback (most recent call last):
+App 7967 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7967 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7967 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7967 output:     result = self.app(env, start_response)
+App 7967 output: TypeError: application() takes 1 positional argument but 2 were given
+App 7967 output: [ pid=7967, time=2018-10-20 19:31:47,279 ]: WSGI application raised an exception!
+App 7967 output: Traceback (most recent call last):
+App 7967 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 7967 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 7967 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 7967 output:     result = self.app(env, start_response)
+App 7967 output: TypeError: application() takes 1 positional argument but 2 were given
+[ W 2018-10-20 19:31:47.2813 7933/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+
+[ N 2018-10-20 19:32:17.8055 7933/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:32:17.8056 7933/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:32:17.8056 7933/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7967, application /var/www/html/pong (development)
+[ N 2018-10-20 19:32:17.8058 7933/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:32:17.8058 7933/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:32:17.8059 7933/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:32:17.8060 7933/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:32:17.8060 7933/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:32:17.8060 7933/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:32:17.8062 7933/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 7967, application /var/www/html/pong (development)
+[ N 2018-10-20 19:32:17.9538 7933/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:32:42.0798 8036/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:32:42.1224 8039/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:32:42.1227 8039/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:32:42.1400 8039/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 8039
+App 8075 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_22.txt
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,542 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_22.txt
+App 8075 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,541 ]: [Kivy        ] v1.10.1
+App 8075 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8075 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,543 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8075 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8075 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,583 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:32:44.8091 8039/Ta age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 8075 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,813 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8075 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 8075 output: Traceback (most recent call last):
+App 8075 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8075 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8075 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8075 output:     result = self.app(env, start_response)
+App 8075 output: TypeError: application() takes 0 positional arguments but 2 were given
+App 8075 output: [ pid=8075, time=2018-10-20 19:32:44,851 ]: WSGI application raised an exception!
+App 8075 output: Traceback (most recent call last):
+App 8075 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8075 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8075 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8075 output:     result = self.app(env, start_response)
+App 8075 output: TypeError: application() takes 0 positional arguments but 2 were given
+[ W 2018-10-20 19:32:44.8536 8039/T6 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+
+[ N 2018-10-20 19:33:54.4333 8039/T6 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:33:54.4334 8039/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:33:54.4335 8039/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8075, application /var/www/html/pong (development)
+[ N 2018-10-20 19:33:54.4336 8039/T6 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:33:54.4337 8039/T6 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:33:54.4337 8039/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:33:54.4337 8039/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:33:54.4339 8039/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:33:54.4340 8039/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:33:54.4341 8039/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8075, application /var/www/html/pong (development)
+[ N 2018-10-20 19:33:54.5862 8039/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:34:29.3200 8160/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:34:29.3622 8163/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:34:29.3625 8163/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:34:29.3780 8163/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 8163
+App 8197 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_23.txt
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:31,772 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_23.txt
+App 8197 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:31,772 ]: [Kivy        ] v1.10.1
+App 8197 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8197 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:31,773 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8197 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8197 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:31,813 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:34:32.0024 8163/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 8197 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:32,043 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8197 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 8197 output: Traceback (most recent call last):
+App 8197 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8197 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8197 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8197 output:     result = self.app(env, start_response)
+App 8197 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8197 output:     return application()
+App 8197 output: TypeError: application() missing 2 required positional arguments: 'env' and 'start_response'
+[ W 2018-10-20 19:34:32.0822 8163/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 8197 output: [ pid=8197, time=2018-10-20 19:34:32,080 ]: WSGI application raised an exception!
+App 8197 output: Traceback (most recent call last):
+App 8197 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8197 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8197 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8197 output:     result = self.app(env, start_response)
+App 8197 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8197 output:     return application()
+App 8197 output: TypeError: application() missing 2 required positional arguments: 'env' and 'start_response'
+
+[ N 2018-10-20 19:34:47.2366 8163/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:34:47.2366 8163/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:34:47.2367 8163/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8197, application /var/www/html/pong (development)
+[ N 2018-10-20 19:34:47.2368 8163/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:34:47.2369 8163/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:34:47.2369 8163/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:34:47.2369 8163/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:34:47.2371 8163/Tb Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:34:47.2371 8163/Tb Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:34:47.2373 8163/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8197, application /var/www/html/pong (development)
+[ N 2018-10-20 19:34:47.3831 8163/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-20 19:35:15.4115 8258/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-20 19:35:15.4541 8261/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-20 19:35:15.4544 8261/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-20 19:35:15.4699 8261/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 8261
+App 8295 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_24.txt
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:17,862 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-20_24.txt
+App 8295 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:17,861 ]: [Kivy        ] v1.10.1
+App 8295 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8295 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:17,862 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 8295 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 8295 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:17,903 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-20 19:35:18.1006 8261/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 8295 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:18,132 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 8295 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-20 19:35:18.1809 8261/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 8295 output: Traceback (most recent call last):
+App 8295 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8295 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8295 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8295 output:     result = self.app(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   [Previous line repeated 993 more times]
+App 8295 output: RecursionError: maximum recursion depth exceeded
+App 8295 output: [ pid=8295, time=2018-10-20 19:35:18,173 ]: WSGI application raised an exception!
+App 8295 output: Traceback (most recent call last):
+App 8295 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 8295 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 8295 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 8295 output:     result = self.app(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   File "/var/www/html/pong/passenger_wsgi.py", line 9, in application
+App 8295 output:     return application(env, start_response)
+App 8295 output:   [Previous line repeated 993 more times]
+App 8295 output: RecursionError: maximum recursion depth exceeded
+
+[ N 2018-10-20 19:48:41.8066 8261/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-20 19:48:41.8067 8261/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-20 19:48:41.8067 8261/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8295, application /var/www/html/pong (development)
+[ N 2018-10-20 19:48:41.8069 8261/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-20 19:48:41.8069 8261/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-20 19:48:41.8069 8261/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-20 19:48:41.8069 8261/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-20 19:48:41.8071 8261/Tb Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-20 19:48:41.8072 8261/Tb Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-20 19:48:41.8073 8261/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 8295, application /var/www/html/pong (development)
+[ N 2018-10-20 19:48:41.9507 8261/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-22 11:36:07.4737 2050/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-22 11:36:07.5534 2053/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-22 11:36:07.5538 2053/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-22 11:36:07.5692 2053/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 2053
+App 2087 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_0.txt
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,091 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_0.txt
+App 2087 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,090 ]: [Kivy        ] v1.10.1
+App 2087 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 2087 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,092 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 2087 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 2087 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,169 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-22 11:36:10.2120 2053/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 2087 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,482 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 2087 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 2087 output: Traceback (most recent call last):
+App 2087 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 2087 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 2087 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 2087 output:     result = self.app(env, start_response)
+App 2087 output: TypeError: application() takes 1 positional argument but 2 were given
+App 2087 output: [ pid=2087, time=2018-10-22 11:36:10,564 ]: WSGI application raised an exception!
+App 2087 output: Traceback (most recent call last):
+App 2087 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 2087 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 2087 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 2087 output:     result = self.app(env, start_response)
+App 2087 output: TypeError: application() takes 1 positional argument but 2 were given
+[ W 2018-10-22 11:36:10.5660 2053/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+
+[ N 2018-10-22 11:38:31.3398 2053/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-22 11:38:31.3399 2053/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-22 11:38:31.3400 2053/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 2087, application /var/www/html/pong (development)
+[ N 2018-10-22 11:38:31.3402 2053/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-22 11:38:31.3402 2053/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-22 11:38:31.3403 2053/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-22 11:38:31.3404 2053/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-22 11:38:31.3404 2053/Tb Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-22 11:38:31.3405 2053/Tb Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-22 11:38:31.3406 2053/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 2087, application /var/www/html/pong (development)
+[ N 2018-10-22 11:38:31.4837 2053/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-22 11:38:34.5762 2325/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-22 11:38:34.6187 2328/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-22 11:38:34.6190 2328/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-22 11:38:34.6345 2328/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 2328
+App 2362 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_1.txt
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,021 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_1.txt
+App 2362 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,021 ]: [Kivy        ] v1.10.1
+App 2362 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 2362 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,022 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 2362 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 2362 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,062 ]: [Factory     ] 194 symbols loaded
+[ N 2018-10-22 11:38:37.2561 2328/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 2362 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,289 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 2362 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 2362 output: Traceback (most recent call last):
+App 2362 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 2362 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 2362 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 2362 output:     result = self.app(env, start_response)
+App 2362 output: TypeError: application() takes 0 positional arguments but 2 were given
+App 2362 output: [ pid=2362, time=2018-10-22 11:38:37,325 ]: WSGI application raised an exception!
+App 2362 output: Traceback (most recent call last):
+App 2362 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 2362 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 2362 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 2362 output:     result = self.app(env, start_response)
+App 2362 output: TypeError: application() takes 0 positional arguments but 2 were given
+[ W 2018-10-22 11:38:37.3278 2328/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+
+[ N 2018-10-22 11:47:01.6375 2328/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-22 11:47:01.6376 2328/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-22 11:47:01.6376 2328/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 2362, application /var/www/html/pong (development)
+[ N 2018-10-22 11:47:01.6378 2328/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-22 11:47:01.6378 2328/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-22 11:47:01.6379 2328/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-22 11:47:01.6379 2328/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-22 11:47:01.6380 2328/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-22 11:47:01.6380 2328/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-22 11:47:01.6382 2328/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 2362, application /var/www/html/pong (development)
+[ N 2018-10-22 11:47:01.7859 2328/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-22 12:20:41.9097 3819/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-22 12:20:41.9515 3822/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-22 12:20:41.9518 3822/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-22 12:20:41.9672 3822/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 3822
+App 3856 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_3.txt
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,359 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_3.txt
+App 3856 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,359 ]: [Kivy        ] v1.10.1
+App 3856 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 3856 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,360 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 3856 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 3856 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,400 ]: [Factory     ] 194 symbols loaded
+App 3856 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,626 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-22 12:20:44.6299 3822/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 3856 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-22 12:20:44.6655 3822/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 3856 output: Traceback (most recent call last):
+App 3856 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 3856 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 3856 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 3856 output:     result = self.app(env, start_response)
+App 3856 output: TypeError: __init__() takes 1 positional argument but 3 were given
+App 3856 output: [ pid=3856, time=2018-10-22 12:20:44,664 ]: WSGI application raised an exception!
+App 3856 output: Traceback (most recent call last):
+App 3856 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 3856 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 3856 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 3856 output:     result = self.app(env, start_response)
+App 3856 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-22 12:21:04.6255 3822/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-22 12:21:04.6256 3822/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-22 12:21:04.6256 3822/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 3856, application /var/www/html/pong (development)
+[ N 2018-10-22 12:21:04.6258 3822/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-22 12:21:04.6258 3822/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-22 12:21:04.6259 3822/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-22 12:21:04.6259 3822/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-22 12:21:04.6260 3822/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-22 12:21:04.6260 3822/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-22 12:21:04.6262 3822/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 3856, application /var/www/html/pong (development)
+[ N 2018-10-22 12:21:04.7694 3822/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-22 12:48:27.4150 4278/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-22 12:48:27.4573 4281/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-22 12:48:27.4576 4281/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-22 12:48:27.4729 4281/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 4281
+App 4315 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_4.txt
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:29,863 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_4.txt
+App 4315 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:29,862 ]: [Kivy        ] v1.10.1
+App 4315 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 4315 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:29,863 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 4315 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 4315 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:29,904 ]: [Factory     ] 194 symbols loaded
+App 4315 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:30,133 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-22 12:48:30.1549 4281/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 4315 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+App 4315 output: Traceback (most recent call last):
+App 4315 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 4315 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4315 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 4315 output:     result = self.app(env, start_response)
+App 4315 output: TypeError: __init__() takes 1 positional argument but 3 were given
+[ W 2018-10-22 12:48:30.1751 4281/T7 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 4315 output: [ pid=4315, time=2018-10-22 12:48:30,173 ]: WSGI application raised an exception!
+App 4315 output: Traceback (most recent call last):
+App 4315 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 4315 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4315 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 4315 output:     result = self.app(env, start_response)
+App 4315 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-22 12:48:48.3532 4281/T7 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-22 12:48:48.3533 4281/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-22 12:48:48.3533 4281/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 4315, application /var/www/html/pong (development)
+[ N 2018-10-22 12:48:48.3537 4281/Ta Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-22 12:48:48.3537 4281/Ta Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-22 12:48:48.3539 4281/T7 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-22 12:48:48.3540 4281/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-22 12:48:48.3542 4281/Tc Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-22 12:48:48.3542 4281/Tc Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-22 12:48:48.3543 4281/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 4315, application /var/www/html/pong (development)
+[ N 2018-10-22 12:48:48.5076 4281/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
+[ N 2018-10-22 12:48:50.5224 4376/T1 age/Wat/WatchdogMain.cpp:1300 ]: Starting Passenger watchdog...
+[ N 2018-10-22 12:48:50.5648 4379/T1 age/Cor/CoreMain.cpp:1310 ]: Starting Passenger core...
+[ N 2018-10-22 12:48:50.5651 4379/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2018-10-22 12:48:50.5804 4379/T1 age/Cor/CoreMain.cpp:985 ]: Passenger core online, PID 4379
+App 4415 output: [[1;32mINFO[0m   ] [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_5.txt
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:52,972 ]: [Logger      ] Record log in /home/noah/.kivy/logs/kivy_18-10-22_5.txt
+App 4415 output: [[1;32mINFO[0m   ] [Kivy        ] v1.10.1
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:52,972 ]: [Kivy        ] v1.10.1
+App 4415 output: [[1;32mINFO[0m   ] [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 4415 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:52,973 ]: [Python      ] v3.6.6 (default, Sep 12 2018, 18:26:19) 
+App 4415 output: [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+App 4415 output: [[1;32mINFO[0m   ] [Factory     ] 194 symbols loaded
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:53,013 ]: [Factory     ] 194 symbols loaded
+App 4415 output: [[1;32mINFO[0m   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:53,242 ]: [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[ N 2018-10-22 12:48:53.2448 4379/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+App 4415 output: [[1;31mERROR[0m  ] WSGI application raised an exception!
+[ W 2018-10-22 12:48:53.2816 4379/T8 age/Cor/Con/InternalUtils.cpp:96 ]: [Client 1-1] Sending 502 response: application did not send a complete response
+App 4415 output: Traceback (most recent call last):
+App 4415 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 4415 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4415 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 4415 output:     result = self.app(env, start_response)
+App 4415 output: TypeError: __init__() takes 1 positional argument but 3 were given
+App 4415 output: [ pid=4415, time=2018-10-22 12:48:53,280 ]: WSGI application raised an exception!
+App 4415 output: Traceback (most recent call last):
+App 4415 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 199, in main_loop
+App 4415 output:     socket_hijacked = self.process_request(env, input_stream, client)
+App 4415 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 333, in process_request
+App 4415 output:     result = self.app(env, start_response)
+App 4415 output: TypeError: __init__() takes 1 positional argument but 3 were given
+
+[ N 2018-10-22 12:49:57.6202 4379/T8 age/Cor/CoreMain.cpp:641 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-10-22 12:49:57.6204 4379/T1 age/Cor/CoreMain.cpp:1216 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-10-22 12:49:57.6205 4379/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 4415, application /var/www/html/pong (development)
+[ N 2018-10-22 12:49:57.6207 4379/T9 Ser/Server.h:903 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-10-22 12:49:57.6208 4379/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-10-22 12:49:57.6210 4379/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-10-22 12:49:57.6211 4379/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-10-22 12:49:57.6213 4379/Tb Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-10-22 12:49:57.6213 4379/Tb Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-10-22 12:49:57.6214 4379/T1 age/Cor/CoreMain.cpp:1117 ]: Checking whether to disconnect long-running connections for process 4415, application /var/www/html/pong (development)
+[ N 2018-10-22 12:49:57.7648 4379/T1 age/Cor/CoreMain.cpp:1295 ]: Passenger core shutdown finished
